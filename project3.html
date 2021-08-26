@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast</title>
+</head>
+<link rel="stylesheet" href="project3.css">
+<link href="https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+<head>
+<div class="header" id="myHeader">
+    <h1>
+        <strong>
+            <img src="nu.png" alt="FAST" width="700" height="80">
+        </strong>
+    </h1>
+        <nav>
+            <table style="width:100%">
+                <tr>  
+                  <th><a href="#">Home</a></th>
+                  <th><a href="#">Contact Us</a></th> 
+                  <th><a href="#">Campuses</a></th>
+                </tr>
+            </table>
+        </nav>
+        </div>
+</head>
+<hr>
+<body>
+    <div class="box">
+    <h1>
+        LIFE AT FAST
+    </h1>
+    <br>
+    <h3>Provide a learning space to the students.</h3>
+    <h3>Lush green lawns with thhe aesthetic vibes.</h3>
+    <h3>Groom them for the professional excellence and making them loyal for the practical life.</h3>
+</div>
+<h1>Currently Serving in Following Cities</h1>
+    <table class="table1">
+        <td><i class="mdi mdi-city"></i>Karachi</td>
+        <td><i class="mdi mdi-city"></i>Lahore</td>
+        <td><i class="mdi mdi-city"></i>Faislabad</td>
+        <td><i class="mdi mdi-city"></i>Peshawar</td>
+        <td><i class="mdi mdi-city"></i>Islamabad</td>
+    </table>
+    <hr>
+    <div class="port">
+        <h1>Why FAST?</h1>
+        <p>Founded as a Federally Chartered University in July 2000, the National University of Computer
+            and Emerging Sciences is a premiere University of Pakistan, renowned for quality and impact
+            of its students in the development of local software and other industries. The university has five modern campuses at Karachi,
+            Lahore, Islamabad, Peshawar and Chiniot-Faisalabad. These campuses provide world class educational environment and recreational 
+            facilities to about over 11,000 students, around one quarter are female and over 500 skilled faculty members.
+
+            Research wings of the university are well recognized, nationally and internationally. They are embarked upon cutting edge research
+            having direct impact on the social, economic and technological needs of Pakistan. Our vision is to become a globally recognized
+            research university of Pakistan within the next decade.</p>
+    </div>
+    <hr>
+    <h1>Offered Programs</h1>
+    <table class="table2">
+        <tr>
+        <td><img src="CS.jpeg" alt="CS"><h3>Computer Sciences</h3><p>Students will be able to possess essential knowledge and overview of the general area of computer science,
+             and its applications</p></td>
+        <td><img src="SE.jpeg" alt="SE"><h3>Software Engineering</h3><p>Student will be able to apply knowledge of computing fundamentals, knowledge of a computing
+             specialization and domain knowledge appropriate for the computing specialization</p></td>
+             <td><img src="AI.jpeg" alt="AI"><h3>Artificial Intelligence</h3><p>Design, implement, and evaluate a computer-based system, process, component or program to meet 
+             desired needs.</p></td>
+            </tr>
+            <tr>
+        <td><img src="EE.jpeg" alt="EE"><h3>Electrical Engineering</h3><p>Impart in depth knowledge and application of methodology to investigate original research problems 
+            through a systematic and focused approach</p></td>
+        <td><img src="Cyber.jpeg" alt="Cyber"><h3>Cyber Security</h3><p>Developed core Computing foundation according to international standards.</p></td>
+    </tr>
+    </table>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+<footer>
+    <br>
+    <p><i class="mdi mdi-fax"></i>(021) 410 0549</p>
+    <p><i class="mdi mdi-phone"></i> (021) 410 0541-6</p>
+    <p><i class="mdi mdi-home-variant-outline"></i>Shah Latif Town (on National Highway)</p>
+    <br>
+</footer>
+</html>
